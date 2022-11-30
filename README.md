@@ -2,5 +2,5 @@
 
 ### Em desenvolvimento
 
-1. arthurrMalveste
+1. arthurMalveste
 3. Thiago Zaneti
