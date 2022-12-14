@@ -1,0 +1,195 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #ffffff;
+	padding: 20px 4000px 55px 300px;
+}
+
+.caixa {
+	position: relative;
+	width: 943px;
+	margin: 0 auto;
+}
+
+#logoInicial {
+	width: 60%;
+    margin-top: 34px;
+	position: relative;
+    right: 150px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	position: relative;
+	left: 400px;
+	top: -7px;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 65px;
+	font-weight: bold;
+	font-size: 27px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #331db1;
+}
+
+.banner {
+	width:100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.Interesse {
+	margin: 70px 0px 130px 0px;
+    text-align: center;
+}
+
+.Interesse p {
+	margin: 15px 0 42px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cambria;
+}
+
+#botaoInteresse {
+	background-color: #FF4500;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+    cursor: pointer;
+    height: 70px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 11em;
+    border-style: hidden;
+	transition: all 0.75s;
+}
+
+#botaoInteresse:hover {
+	transform: scale(1.15);
+}
+
+#textoBotaoInteresse {
+	text-decoration: none;
+	color: #000000;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0 20px;
+}
+
+.logo-tranparente {
+	width: 30%;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+#redesSociaisTexto {
+	font-size: 17px;
+	text-align: left;
+	color: white;
+}
+
+#redesSociais {
+	font-size: 15px;
+    text-align: left;
+    margin-left: 35px;
+    color: white;
+	list-style: initial;
+    list-style-position: inside;
+}
+
+
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+	
+/*
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video
+
+h1 {
+	text-align: center;
+	}
+nav {
+	position: static;
+}
+
+.lista-beneficios, .imegens-beneficios {
+	width: 100%;
+}
+}
+*/
