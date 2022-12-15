@@ -3,12 +3,13 @@ body {
 }
 
 header {
-	background: #ffffff;
+	background: linear-gradient(271deg, #323232, transparent);
 }
 
 .logoPng {
 	position: relative;
 	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 60px 0px;
 }
 
 #logoPngHeader {
@@ -17,7 +18,22 @@ header {
     width: 26%;
 }
 
-	
+nav {
+	position: absolute;
+    top: 100px;
+    left: 750px;
+    margin-top: 35px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	position: relative;
+	color: #87CEEB;
+    margin: 100px;
+}
 /*
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video
