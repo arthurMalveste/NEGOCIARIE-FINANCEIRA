@@ -1,5 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	overflow-y: scroll;
 }
 
 header {
@@ -32,7 +33,15 @@ nav li {
 nav a {
 	position: relative;
 	color: #87CEEB;
-    margin: 100px;
+    margin: 80px;
+	font-size: 20px;
+	text-transform: uppercase;
+    text-decoration: none;
+	
+}
+
+nav a:hover {
+	color: #1E90FF;
 }
 /*
 @media screen and (max-width: 480px) {
