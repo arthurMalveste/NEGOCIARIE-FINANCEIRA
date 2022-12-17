@@ -43,6 +43,16 @@ nav a {
 nav a:hover {
 	color: #1E90FF;
 }
+
+#quemSomos {
+	margin: 30px 120px;
+    border: solid #483D8B;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+    font-family: 'rubik';
+    font-size: 130%;
+    border-radius: 25px;
+}
 /*
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video
