@@ -1,0 +1,80 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	overflow-y: scroll;
+}
+
+header {
+	background: linear-gradient(271deg, #323232, transparent);
+}
+
+.logoPng {
+	position: relative;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 60px 0px;
+}
+
+#logoPngHeader {
+	top: 40px;
+    left: 200px;
+    width: 26%;
+}
+
+nav {
+	position: absolute;
+    top: 100px;
+    left: 750px;
+    margin-top: 35px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	position: relative;
+	color: #87CEEB;
+    margin: 80px;
+	font-size: 20px;
+	text-transform: uppercase;
+    text-decoration: none;
+	
+}
+
+nav a:hover {
+	color: #1E90FF;
+}
+
+#quemSomos {
+	margin: 30px 120px;
+    border: solid #483D8B;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+    font-family: 'rubik';
+    font-size: 130%;
+    border-radius: 25px;
+	transition: all 1.4s;
+}
+
+#quemSomos:hover {
+ scale: 1.1;
+ background: #A9A9A9;
+ color: white;
+ padding: 50px;
+ margin: 30px 550px;
+}
+/*
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video
+
+h1 {
+	text-align: center;
+	}
+nav {
+	position: static;
+}
+
+.lista-beneficios, .imegens-beneficios {
+	width: 100%;
+}
+}
+*/
