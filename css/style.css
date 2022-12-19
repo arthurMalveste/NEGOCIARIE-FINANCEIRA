@@ -52,6 +52,15 @@ nav a:hover {
     font-family: 'rubik';
     font-size: 130%;
     border-radius: 25px;
+	transition: all 1.4s;
+}
+
+#quemSomos:hover {
+ scale: 1.1;
+ background: #A9A9A9;
+ color: white;
+ padding: 50px;
+ margin: 30px 550px;
 }
 /*
 @media screen and (max-width: 480px) {
